@@ -2,8 +2,6 @@ package com.java;
 
 import java.util.List;
 
-import A.com.Developers;
-
 public class Manager extends President {
 		
 private	String managerName;

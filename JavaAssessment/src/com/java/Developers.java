@@ -1,8 +1,8 @@
 package com.java;
 
-import java.util.List;
+//import java.util.List;
 
-public class Developers extends President{
+public class Developers extends Manager{
 	
 	public Developers(String developerName,String Designatoion,String Teamname)
 	{
