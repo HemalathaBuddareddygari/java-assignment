@@ -37,7 +37,7 @@ public class President{
 		
 	int totalcount=0;
 	
-	List<Developers> developers;
+	List<com.java.Developers> developers;
 	for(Manager m:managers)
 	{
 		developers=m.getDevelopers();

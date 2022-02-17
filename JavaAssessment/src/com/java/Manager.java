@@ -7,7 +7,7 @@ import A.com.Developers;
 public class Manager extends President {
 		
 private	String managerName;
-private List<Developers> developers;
+private List<com.java.Developers> developers;
 
 public String getManagerName() {
 	return managerName;
@@ -15,11 +15,11 @@ public String getManagerName() {
 public void setManagerName(String managerName) {
 	this.managerName = managerName;
 }
-public  List<Developers> getDevelopers() {
+public  List<com.java.Developers> getDevelopers() {
 	return developers;
 }
-public void setDevelopers(List<Developers> developers) {
-	this.developers = developers;
+public void setDevelopers(List<com.java.Developers> servicenowsoftdeveloperslist) {
+	this.developers = servicenowsoftdeveloperslist;
 }
 }
 	/*public Manager(String presidentName, List<Manager> managers, List<Developer> developers, String designation,

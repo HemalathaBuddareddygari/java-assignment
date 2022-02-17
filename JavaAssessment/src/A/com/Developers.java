@@ -4,12 +4,14 @@ public class Developers extends Manager {
 
 	public String name;
 	public String dept;
-	Developers(String name, String dept)
-	{
-
-		this.name=name;
-		this.dept=dept;
-
+	public String designation;
+	public String Teamname;
+	
+	public Developers(String name, String designation, String teamname) {
+		super(name, designation);
+		
+		this.designation=designation;
+		Teamname = teamname;
 	}
 	public void display1()
 	{
